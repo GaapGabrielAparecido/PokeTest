@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pulsar {
+  height: auto;
+  animation: pulsar 3s infinite alternate;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}
